@@ -5,79 +5,165 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/assignment_two.css">
+  <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  <script src="./scripts/main.js"></script>
   <title>Akari Stationary Store</title>
   </head>
 
 <body>
 <section class="hero-container">
-    <!-- Remove and add hero banner HTML -->
-    <div class="hero-image">
+    <div class="hero-image" aria-label="[an image of a white matte surface that has various stationary like a brown paper bag-like journal, a pair of golden scissors, some beads and some pencils in the colour of grey and white]">
         <div class="hero-text">
             <img class="hero-logo" src="assets/akari_logo.png" alt="an image of akari's stationary shop logo that has 3 circles grouped together to make a border with a stylized quill pen in the center and the name akari stationary shop stacked vertically below the icon in a serif and decorative font">
-      <p>A small local stationary store</p>
-      <button>Our Shop</button>
+      <h4>A small local stationary store</h4>
+      <button>Our Shop <span class="material-symbols-outlined"> shopping_bag </span></button>
     </div>
     </div>
   </section>
 
   <section class="container content-container">
-    <!-- Remove and add content HTML -->
+    <!-- Content Row 1: Image and Text -->
     <div class="row">
-      <div class="left">
-        <img src="assets/content_image_one.jpg" alt="An in amage of 3 wooden shelves on a white wall that has various books and journals on display facing foward and below these shelves is a counter that has various stationary items like scissors, washi tape, pens and calendars">
+        <div class="left">
+            <img src="assets/content_image_one.jpg" alt="An image of 3 wooden shelves on a white wall that has various books and journals on display facing forward and below these shelves is a counter that has various stationary items like scissors, washi tape, pens and calendars">
+        </div>
+        <div class="right">
+            <div class="content">
+                <h2>Our Story</h2>
+                <p>It all started as a group of friends who wanted to open a small little cafe together. We want to bring locals around the area to socialize, and for students to have a great place to push through their busy semesters. It is a place to bring people together.</p>
+            </div>
+        </div>
     </div>
-    <div class="right">
-      <div class="content">
-        <h2>Our Story</h2>
-        <p>It all started as a group of friends who wanted to open a small little cafe together. We want to bring locals around the area to socialize, and for students to have a great place to push through their busy semesters. It is a place to bring people together.</p>
-      </div>
-    </div>
-  </div>
-  </section>
 
+    <!-- Content Row 2: Video and Text -->
+    <div class="row video-row">
+        <div class="video-left">
+            <h2>Don't know where to start?</h2>
+            <p>Check out this video to learn more about picking out a pen for journaling and all the necessary tips and tricks to get started on your creative endeavors.</p>
+        </div>  
+        <div class="right-video">
+            <div class="right-content">
+                <iframe width="454" height="310" src="https://www.youtube.com/embed/tncqNU0LLvo?si=B9uXY1tIm_K-vg3z" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
 
   <section class="container">
+    <h2 class="cards-header">Our Collection</h2>
     <ul class="card-container">
       <li class="card">
-        <img src="assets/journals_notebooks_card.jpg" id="card-photos" alt="">
+        <img src="assets/journals_notebooks_card.jpg" class="card-photos" alt="an image of a brown notebook, light blue notebook and an opened lined notebook thata are stacked on top of each other with a light blue pen in front of it that is all lying on top of a brown knitted fabric">
         <div class="card-content">
-          <h3 class="subheader">
-            Austria
-          </h3>
-          <h4 class="header">
-            Vienna
-          </h4>
+          <h2 class="subheader">
+            Notebooks & Journals
+          </h2>
           <p class="paragraph">
-            Taken by: Jörg Bauer
+            Elevate your writing experience with our premium notebooks and journals. Let your creativity shine. 
           </p>
+          <div class="last-line">Explore our Collection Today.</div>
+          <button class="card-button">Shop Now</button>
         </div>
       </li>
       <li class="card">
-        <img src="assets/supplies_image_card_section.jpg" id="card-photos" alt="">
-          <h3 class="subheader">
-            Italy
-          </h3>
-          <h4 class="header">
-            Rome
-          </h4>
+        <img src="assets/supplies_image_card_section.jpg" class="card-photos" alt="an image of a wooden supplies cup that has a rectangular shape to it with various of colourful stationary supplies like pencils and a pair of scissors on top of a white desk and in front of a blurred out background">
+        <div class="card-content">
+          <h2 class="subheader">
+            Stationary Supplies
+          </h2>
           <p class="paragraph">
-            Taken by: Chris Czermak
+            Discover our high quality stationary supplies to get started today on your creative journey.
           </p>
+         <div class="last-line">Explore our Collection Today.</div>
+          <button class="card-button">Shop Now</button>
         </div>
       </li>
       <li class="card">
-        <img src="assets/art_supplies_card.jpg" id="card-photos" alt="">
+        <img src="assets/art_supplies_card.jpg" class="card-photos" alt="an image that has a tall white cup that is holding paint brushes and a dirty wooden paint palette propped up on top of a wooden table that is 3/4ths down on the image while the rest is just the white wall behind it">
         <div class="card-content">
-          <h3 class="subheader">
-            Italy
-          </h3>
-          <h4 class="header">
-            Florence
-          </h4>
+          <h2 class="subheader">
+            Art Supplies
+          </h2>
           <p class="paragraph">
-            Taken by: Mark Pecar
+            From professional grade brushes to beautiful watercolour paints, turn your vision into masterpieces.
           </p>
+             <div class="last-line">Explore our Collection Today.</div>
+                <button class="card-button">Shop Now</button>
         </div>
       </li>
+      </ul>
   </section>
+<!--End of Card Section -->
 
+<section class="container accordion-container">
+    <h2 class="accordion-header">F&Q</h2>
+    <button class="accordion">Do you have an online shop for online delivery?</button>
+    <div class="panel">
+      <p>We currently do not, but we will be setting this up very shortly. Contact us for more information.</p>
+    </div>
+    
+    <button class="accordion">What are your shop's hours?</button>
+    <div class="panel">
+      <p>Our hours is Monday-Friday from 11AM to 6PM. Our opening hours may change depending on holidays.</p>
+    </div>
+    
+    <button class="accordion">Do you offer bulk discounts?</button>
+    <div class="panel">
+      <p>Yes we do offer a bulk discount on our older stock, but new items will not be part of this discount.</p>
+    </div>
+
+  <script> //Javascript for the accordion//
+    const accordions = document.querySelectorAll(".accordion");
+    accordions.forEach(accordion => {
+    accordion.addEventListener("click", () => {
+    accordion.classList.toggle("active");
+    const panel = accordion.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = `${panel.scrollHeight}px`;
+    }
+  });
+});
+  </script>
+</section>
+
+<section class="footer-container">
+    <footer class="footer">
+      <div class="footer-column">
+          <h3>Contact Information</h3>
+          <p>123 Imaginary SAIT Street,<br>Calgary, Canada</p>
+          <p>Email: akari_stationary@example.com<br>Phone: +123456789</p>
+      </div>
+      <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="quick-links">
+              <li><a href="#">Home <span class="material-symbols-outlined">
+                chevron_right
+                </span></a></li>
+              <li><a href="#">About Us <span class="material-symbols-outlined">
+                chevron_right
+                </span></a></li>
+              <li><a href="#">Our Store<span class="material-symbols-outlined">
+                chevron_right
+                </span></a></li>
+              <li><a href="#">Contact Us <span class="material-symbols-outlined">
+                chevron_right
+                </span></a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h3>Location</h3>
+          <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6381.328166540631!2d-114.09423312488117!3d51.0645004579289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f927202bf3f%3A0x16877e49fcc8dbcb!2sStan%20Grad%20Centre!5e0!3m2!1sen!2sca!4v1709871450654!5m2!1sen!2sca" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+      <div class="copyright">
+          <p id="elementFooter">	&#169; <span id="year"> 2021</span> akari stationary shop. All rights reserved</p>  <!-- date is changed to 2021 to see if the js code works to name the date dynamic -->
+      </div>
+  </footer>
+  </section>
+</body>
+</html>

@@ -24,6 +24,10 @@
 /*sections end*/
 
 /* start of hero*/
+h2 {
+font-size:small;
+}
+
 .hero-container {
      background-color: #403d58;
      color: #fff;
@@ -86,6 +90,9 @@
 /*end of hero */
 
 /*start of content section (image) */
+.brand-header {
+  font-size: 30px;
+}
 .row {
     width: 80%;
     max-width: 1170px;
@@ -139,6 +146,9 @@
 /*end of contennt (image)*/
 
  /*start of content section (video) */
+ .video-header {
+  font-size: 30px;
+ }
  .video-row {
     width: 80%;
     max-width: 1170px;
@@ -210,6 +220,7 @@
 }
 .cards-header {
     text-align: center;
+    font-size: 30px;
 }
 .subheader, .paragraph {
     padding: 10px;
